@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+html {
+    font-family: Arial;
+}
+.clr {
+    clear: both;
+}
+.container {
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+}
+#footer-layer {
+    height: 535px;
+}
+#footer {
+    height: 535px;
+    margin-top: -535px;
+}
+.paddingSite {
+    padding: 50px 50px;
+}
+.product {
+    height: 323px;
+    background-color: #445162;
+}
+
+.product-h1 {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.Product-ul {
+    list-style-image: url(img/check_icon.png);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 51px;
+    padding-left: 32px;
+}
+
+.headerImg {
+    float: right;
+}
+
+.headerText {
+    float: left;
+}
+
+.about {
+    height: 345px;
+}
+
+.about-h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 24px;
+}
+
+.product-p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 653px;
+    hyphens: auto;
+}
+
+.aboutText {
+    float: left;
+}
+
+.aboutVideo {
+    float: right;
+    padding: 50px 50px 0 0;
+}
+
+.dignity {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+.dignity-ul1, .dignity-ul2 {
+    list-style-type: none;
+    width: 568px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    float: left;
+}
+.dignity-ul1 {
+    padding-left: 50px;
+    padding-right: 23px;
+}
+.dignity-h2 {
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.DignityList {
+    background: url(img/3-layers.jpg) 0px 4px no-repeat;
+    padding-left: 41px;
+    padding-bottom: 26px;
+}
