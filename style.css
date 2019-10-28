@@ -12,7 +12,7 @@ html {
     clear: both;
 }
 .container {
-    height: 100%;
+    min-height: 100%;
     width: 1280px;
     margin: 0 auto;
 }
@@ -21,7 +21,8 @@ html {
 }
 #footer {
     height: 535px;
-    margin-top: -535px;
+    margin: -535px auto 0;
+    width: 1280px;
 }
 .paddingSite {
     padding: 50px 50px;
@@ -106,7 +107,7 @@ html {
     padding-left: 50px;
     padding-right: 23px;
 }
-.dignity-h2 {
+.dignity-h2, .scrinshots-h2, .reviews-h2, .buy-h1 {
     text-align: center;
     color: #445161;
     font-size: 30px;
@@ -120,4 +121,133 @@ html {
     background: url(img/3-layers.jpg) 0px 4px no-repeat;
     padding-left: 41px;
     padding-bottom: 26px;
+}
+
+
+
+.scrinshotsSection-h2 {
+    padding-left: 215px;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.scrinshots-p {
+    padding-left: 215px;
+    width: 360px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.scrinshots-img {
+    padding-bottom: 30px;
+    float: left;
+}
+
+
+
+.scrinshots1 {
+    float: left;
+    padding-left: 50px;
+}
+
+.scrinshots2 {
+    float: left;
+    padding-left: 15px;
+}
+
+.reviews {
+    background-color: #f5f5f5;
+    height: 424px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.review1 {
+    float: left;
+    padding-bottom: 24px;
+}
+
+.reviewText {
+    margin-left: 91px;
+    background-image: url(img/bg_review.png);
+    height: 121px;
+    width: 483px;
+}
+
+.review-img {
+    float: left;
+}
+
+.review-p {
+    padding-top: 14px;
+    padding-left: 27px;
+    width: 436px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.reviewSign {
+    padding-top: 9px;
+    padding-left: 27px;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.review2 {
+    float: right;
+    padding-bottom: 24px;
+}
+
+.buy {
+    height: 656px;
+}
+
+.contacts {
+    height: 509px;
+    background-color: #445162;
+}
+
+.copyright {
+    text-align: center;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Contacts-h2 {
+    padding-top: 50px;
+    padding-bottom: 28px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.input {
+    display: block;
+    height: 40px;
+    width: 490px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 21px;
+    padding-left: 10px;
+}
+
+.fieldset {
+    margin-left: 249px;
+    width: 500px;
+    text-align: center;
+    border-style: hidden;
 }
